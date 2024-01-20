@@ -7,6 +7,7 @@ from customtkinter import StringVar, filedialog
 import google.generativeai as genai
 import json
 from pathlib import Path
+import glob
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 main = ctk.CTk()
@@ -372,3 +373,21 @@ prompt_box.place(relx=0.5, rely=0.85, anchor="center")
 answer_box = ctk.CTkEntry(main, 590, 50, state="disabled")
 answer_box.place(relx=0.5, rely=0.95, anchor="center")
 main.mainloop()
+#TEMPATURE - DONE!
+#TOP P - DONE!
+#TOP K - DONE!
+#OUTPUT LENGTH - DONE!
+#STOP SEQUENCE - DONE!
+#SAFTEY SETTINGS (WITH ANNOYING WARNINGS) - ill write a doc for that
+#model uniqness actions - (PALM - MAX OUTPUT - DONE) - (VISION - image adding via file popup thing - DONE) - DONE
+#API SENDING - (5 buttons, respond, add image, edit saftey settings, view github, and get help) - done
+#API RECIVING - DONE
+#API ERROR HANDLING - (like saftey blocks, just ask it "1" and youll see what i mean future self) - DONE
+
+#FINAL STEPS
+#COPY PROJECT FOR DEBUGGING VER
+#REMOVE ALL DEBUGGING print() statements from normal file
+#REMOVE ALL Sample Code from normal file
+#TEST BOTH THOUGHLY
+#WIPE API KEY
+#PUBLISH TO GITHUB
