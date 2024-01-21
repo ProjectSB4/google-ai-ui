@@ -1,3 +1,5 @@
+![logo](https://github.com/ProjectSB4/google-ai-ui/assets/116463349/0277720d-1ba1-47c2-9d8a-418f5e936d5d)
+
 # google-ai-ui
 A GUI for Google's Gemini and PaLM models, written in python with CustomTKinter
 
