@@ -13,6 +13,7 @@ main = ctk.CTk()
 main.title(string="Google AI GUI")
 main.geometry("600x600")
 main.resizable(width=False, height=False)
+main.wm_iconbitmap("icon.ico")
 api_key = ''
 fvv = StringVar()
 fvv2 = StringVar()
